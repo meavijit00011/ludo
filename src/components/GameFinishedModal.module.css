@@ -1,0 +1,50 @@
+.game_finished_modal_container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 100000;
+}
+
+.game_finished_modal {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    background-image: url('../assets/celebrate.gif');
+    background-size: contain;
+}
+
+.game_finished_modal div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.game_finished_modal button {
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game_finished_modal button:nth-child(1) {
+    background-color: rgb(6, 182, 6);
+}
+
+.game_finished_modal button:nth-child(2) {
+    background-color: orange;
+}
+
+.game_finished_modal h3 {
+    text-align: center;
+}
